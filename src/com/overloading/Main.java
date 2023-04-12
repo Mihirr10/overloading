@@ -9,7 +9,7 @@ public class Main {
 
     player1.playerDetails("English Premier League");
     player1.playerDetails("English Premier League","Manchester United");
-    player1.playerDetails("English Premier League","Manchester United","Centre Forward");
+    player1.playerDetails("English Premier League","Manchester United","Center Forward");
 
     Player player2=new Player();
     player2.setPlayerName("Lionel Messi");
