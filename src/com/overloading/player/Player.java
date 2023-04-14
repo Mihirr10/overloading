@@ -14,16 +14,16 @@ public class Player {
     this.playerName = playerName;
   }
 
-  public void playerDetails(String leagueName){
-    System.out.println(playerName+" is Playing in the "+leagueName);
+  public void playerDetails(String leagueName) {
+    System.out.println(playerName + " is Playing in the " + leagueName);
   }
 
-  public void playerDetails(String leagueName,String teamName){
-    System.out.println(playerName+" is Playing in the "+leagueName+" for "+teamName);
+  public void playerDetails(String leagueName, String teamName) {
+    System.out.println(playerName + " is Playing in the " + leagueName + " for " + teamName);
   }
 
-  public void playerDetails(String leagueName,String teamName,String position){
-    System.out.println(playerName+" is Playing in the "+leagueName+" for "+teamName+" as "+position);
+  public void playerDetails(String leagueName, String teamName, String position) {
+    System.out.println(playerName + " is Playing in the " + leagueName + " for " + teamName + " as " + position);
     System.out.println("");
   }
 }
